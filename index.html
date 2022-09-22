@@ -1,0 +1,1137 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+		<title>myproject &#8211; Một trang web mới sử dụng WordPress</title>
+<meta name="robots" content="max-image-preview:large">
+<link rel="dns-prefetch" href="//s.w.org">
+<link rel="alternate" type="application/rss+xml" title="myproject &raquo; Feed" href="https://dolongvu.github.io/mywordpress/feed/">
+<link rel="alternate" type="application/rss+xml" title="myproject &raquo; Comments Feed" href="https://dolongvu.github.io/mywordpress/comments/feed/">
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/localhost:7000\/myproject\/wordpress\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.0.2"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode,e=(p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0),i.toDataURL());return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([129777,127995,8205,129778,127999],[129777,127995,8203,129778,127999])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style type="text/css">img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}</style>
+	<link rel="stylesheet" id="bdt-uikit-css" href="https://dolongvu.github.io/mywordpress/wp-content/plugins/bdthemes-element-pack-lite/assets/css/bdt-uikit.css?ver=3.13.1" type="text/css" media="all">
+<link rel="stylesheet" id="ep-helper-css" href="https://dolongvu.github.io/mywordpress/wp-content/plugins/bdthemes-element-pack-lite/assets/css/ep-helper.css?ver=4.5.0" type="text/css" media="all">
+<link rel="stylesheet" id="wp-block-library-css" href="https://dolongvu.github.io/mywordpress/wp-includes/css/dist/block-library/style.min.css?ver=6.0.2" type="text/css" media="all">
+<style id="global-styles-inline-css" type="text/css">body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--neve-link-color: var(--nv-primary-accent);--wp--preset--color--neve-link-hover-color: var(--nv-secondary-accent);--wp--preset--color--nv-site-bg: var(--nv-site-bg);--wp--preset--color--nv-light-bg: var(--nv-light-bg);--wp--preset--color--nv-dark-bg: var(--nv-dark-bg);--wp--preset--color--neve-text-color: var(--nv-text-color);--wp--preset--color--nv-text-dark-bg: var(--nv-text-dark-bg);--wp--preset--color--nv-c-1: var(--nv-c-1);--wp--preset--color--nv-c-2: var(--nv-c-2);--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}</style>
+<link rel="stylesheet" id="neve-style-css" href="https://dolongvu.github.io/mywordpress/wp-content/themes/neve/style-main-new.min.css?ver=3.3.7" type="text/css" media="all">
+<style id="neve-style-inline-css" type="text/css">.nv-meta-list li.meta:not(:last-child):after { content:"/" }.nv-meta-list .no-mobile{
+			display:none;
+		}.nv-meta-list li.last::after{
+			content: ""!important;
+		}@media (min-width: 769px) {
+			.nv-meta-list .no-mobile {
+				display: inline-block;
+			}
+			.nv-meta-list li.last:not(:last-child)::after {
+		 		content: "/" !important;
+			}
+		}
+ :root{ --container: 748px;--postwidth:100%; --primarybtnbg: var(--nv-primary-accent); --primarybtnhoverbg: var(--nv-primary-accent); --primarybtncolor: #fff; --secondarybtncolor: var(--nv-primary-accent); --primarybtnhovercolor: #fff; --secondarybtnhovercolor: var(--nv-primary-accent);--primarybtnborderradius:3px;--secondarybtnborderradius:3px;--secondarybtnborderwidth:3px;--btnpadding:13px 15px;--primarybtnpadding:13px 15px;--secondarybtnpadding:10px 12px; --bodyfontfamily: Arial,Helvetica,sans-serif; --bodyfontsize: 15px; --bodylineheight: 1.6; --bodyletterspacing: 0px; --bodyfontweight: 400; --h1fontsize: 36px; --h1fontweight: 700; --h1lineheight: 1.2; --h1letterspacing: 0px; --h1texttransform: none; --h2fontsize: 28px; --h2fontweight: 700; --h2lineheight: 1.3; --h2letterspacing: 0px; --h2texttransform: none; --h3fontsize: 24px; --h3fontweight: 700; --h3lineheight: 1.4; --h3letterspacing: 0px; --h3texttransform: none; --h4fontsize: 20px; --h4fontweight: 700; --h4lineheight: 1.6; --h4letterspacing: 0px; --h4texttransform: none; --h5fontsize: 16px; --h5fontweight: 700; --h5lineheight: 1.6; --h5letterspacing: 0px; --h5texttransform: none; --h6fontsize: 14px; --h6fontweight: 700; --h6lineheight: 1.6; --h6letterspacing: 0px; --h6texttransform: none;--formfieldborderwidth:2px;--formfieldborderradius:3px; --formfieldbgcolor: var(--nv-site-bg); --formfieldbordercolor: #dddddd; --formfieldcolor: var(--nv-text-color);--formfieldpadding:10px 12px; } .single-post-container .alignfull > [class*="__inner-container"], .single-post-container .alignwide > [class*="__inner-container"]{ max-width:718px } .nv-meta-list{ --avatarsize: 20px; } .single .nv-meta-list{ --avatarsize: 20px; } .nv-post-cover{ --height: 250px;--padding:40px 15px;--justify: flex-start; --textalign: left; --valign: center; } .nv-post-cover .nv-title-meta-wrap, .nv-page-title-wrap, .entry-header{ --textalign: left; } .nv-is-boxed.nv-title-meta-wrap{ --padding:40px 15px; --bgcolor: var(--nv-dark-bg); } .nv-overlay{ --opacity: 50; --blendmode: normal; } .nv-is-boxed.nv-comments-wrap{ --padding:20px; } .nv-is-boxed.comment-respond{ --padding:20px; } .global-styled{ --bgcolor: var(--nv-site-bg); } .header-top{ --rowbcolor: var(--nv-light-bg); --color: var(--nv-text-color); --bgcolor: var(--nv-site-bg); } .header-main{ --rowbcolor: var(--nv-light-bg); --color: var(--nv-text-color); --bgcolor: var(--nv-site-bg); } .header-bottom{ --rowbcolor: var(--nv-light-bg); --color: var(--nv-text-color); --bgcolor: var(--nv-site-bg); } .header-menu-sidebar-bg{ --justify: flex-start; --textalign: left;--flexg: 1;--wrapdropdownwidth: auto; --color: var(--nv-text-color); --bgcolor: var(--nv-site-bg); } .header-menu-sidebar{ width: 360px; } .builder-item--logo{ --maxwidth: 120px;--padding:10px 0;--margin:0; --textalign: left;--justify: flex-start; } .builder-item--nav-icon,.header-menu-sidebar .close-sidebar-panel .navbar-toggle{ --borderradius:0; } .builder-item--nav-icon{ --label-margin:0 5px 0 0;;--padding:10px 15px;--margin:0; } .builder-item--primary-menu{ --hovercolor: var(--nv-secondary-accent); --activecolor: var(--nv-primary-accent); --spacing: 20px; --height: 25px;--padding:0;--margin:0; --fontsize: 1em; --lineheight: 1.6; --letterspacing: 0px; --fontweight: 500; --texttransform: none; --iconsize: 1em; } .hfg-is-group.has-primary-menu .inherit-ff{ --inheritedfw: 500; } .footer-top-inner .row{ grid-template-columns:1fr 1fr 1fr; --valign: flex-start; } .footer-top{ --rowbcolor: var(--nv-light-bg); --color: var(--nv-text-color); --bgcolor: var(--nv-site-bg); } .footer-main-inner .row{ grid-template-columns:1fr 1fr 1fr; --valign: flex-start; } .footer-main{ --rowbcolor: var(--nv-light-bg); --color: var(--nv-text-color); --bgcolor: var(--nv-site-bg); } .footer-bottom-inner .row{ grid-template-columns:1fr 1fr 1fr; --valign: flex-start; } .footer-bottom{ --rowbcolor: var(--nv-light-bg); --color: var(--nv-text-dark-bg); --bgcolor: var(--nv-dark-bg); } @media(min-width: 576px){ :root{ --container: 992px;--postwidth:50%;--btnpadding:13px 15px;--primarybtnpadding:13px 15px;--secondarybtnpadding:10px 12px; --bodyfontsize: 16px; --bodylineheight: 1.6; --bodyletterspacing: 0px; --h1fontsize: 38px; --h1lineheight: 1.2; --h1letterspacing: 0px; --h2fontsize: 30px; --h2lineheight: 1.2; --h2letterspacing: 0px; --h3fontsize: 26px; --h3lineheight: 1.4; --h3letterspacing: 0px; --h4fontsize: 22px; --h4lineheight: 1.5; --h4letterspacing: 0px; --h5fontsize: 18px; --h5lineheight: 1.6; --h5letterspacing: 0px; --h6fontsize: 14px; --h6lineheight: 1.6; --h6letterspacing: 0px; } .single-post-container .alignfull > [class*="__inner-container"], .single-post-container .alignwide > [class*="__inner-container"]{ max-width:962px } .nv-meta-list{ --avatarsize: 20px; } .single .nv-meta-list{ --avatarsize: 20px; } .nv-post-cover{ --height: 320px;--padding:60px 30px;--justify: flex-start; --textalign: left; --valign: center; } .nv-post-cover .nv-title-meta-wrap, .nv-page-title-wrap, .entry-header{ --textalign: left; } .nv-is-boxed.nv-title-meta-wrap{ --padding:60px 30px; } .nv-is-boxed.nv-comments-wrap{ --padding:30px; } .nv-is-boxed.comment-respond{ --padding:30px; } .header-menu-sidebar-bg{ --justify: flex-start; --textalign: left;--flexg: 1;--wrapdropdownwidth: auto; } .header-menu-sidebar{ width: 360px; } .builder-item--logo{ --maxwidth: 120px;--padding:10px 0;--margin:0; --textalign: left;--justify: flex-start; } .builder-item--nav-icon{ --label-margin:0 5px 0 0;;--padding:10px 15px;--margin:0; } .builder-item--primary-menu{ --spacing: 20px; --height: 25px;--padding:0;--margin:0; --fontsize: 1em; --lineheight: 1.6; --letterspacing: 0px; --iconsize: 1em; } }@media(min-width: 960px){ :root{ --container: 1170px;--postwidth:33.333333333333%;--btnpadding:13px 15px;--primarybtnpadding:13px 15px;--secondarybtnpadding:10px 12px; --bodyfontsize: 16px; --bodylineheight: 1.7; --bodyletterspacing: 0px; --h1fontsize: 40px; --h1lineheight: 1.1; --h1letterspacing: 0px; --h2fontsize: 32px; --h2lineheight: 1.2; --h2letterspacing: 0px; --h3fontsize: 28px; --h3lineheight: 1.4; --h3letterspacing: 0px; --h4fontsize: 24px; --h4lineheight: 1.5; --h4letterspacing: 0px; --h5fontsize: 20px; --h5lineheight: 1.6; --h5letterspacing: 0px; --h6fontsize: 16px; --h6lineheight: 1.6; --h6letterspacing: 0px; } body:not(.single):not(.archive):not(.blog):not(.search):not(.error404) .neve-main > .container .col, body.post-type-archive-course .neve-main > .container .col, body.post-type-archive-llms_membership .neve-main > .container .col{ max-width: 100%; } body:not(.single):not(.archive):not(.blog):not(.search):not(.error404) .nv-sidebar-wrap, body.post-type-archive-course .nv-sidebar-wrap, body.post-type-archive-llms_membership .nv-sidebar-wrap{ max-width: 0%; } .neve-main > .archive-container .nv-index-posts.col{ max-width: 100%; } .neve-main > .archive-container .nv-sidebar-wrap{ max-width: 0%; } .neve-main > .single-post-container .nv-single-post-wrap.col{ max-width: 70%; } .single-post-container .alignfull > [class*="__inner-container"], .single-post-container .alignwide > [class*="__inner-container"]{ max-width:789px } .container-fluid.single-post-container .alignfull > [class*="__inner-container"], .container-fluid.single-post-container .alignwide > [class*="__inner-container"]{ max-width:calc(70% + 15px) } .neve-main > .single-post-container .nv-sidebar-wrap{ max-width: 30%; } .nv-meta-list{ --avatarsize: 20px; } .single .nv-meta-list{ --avatarsize: 20px; } .nv-post-cover{ --height: 400px;--padding:60px 40px;--justify: flex-start; --textalign: left; --valign: center; } .nv-post-cover .nv-title-meta-wrap, .nv-page-title-wrap, .entry-header{ --textalign: left; } .nv-is-boxed.nv-title-meta-wrap{ --padding:60px 40px; } .nv-is-boxed.nv-comments-wrap{ --padding:40px; } .nv-is-boxed.comment-respond{ --padding:40px; } .header-menu-sidebar-bg{ --justify: flex-start; --textalign: left;--flexg: 1;--wrapdropdownwidth: auto; } .header-menu-sidebar{ width: 360px; } .builder-item--logo{ --maxwidth: 120px;--padding:10px 0;--margin:0; --textalign: left;--justify: flex-start; } .builder-item--nav-icon{ --label-margin:0 5px 0 0;;--padding:10px 15px;--margin:0; } .builder-item--primary-menu{ --spacing: 20px; --height: 25px;--padding:0;--margin:0; --fontsize: 1em; --lineheight: 1.6; --letterspacing: 0px; --iconsize: 1em; } }.nv-content-wrap .elementor a:not(.button):not(.wp-block-file__button){ text-decoration: none; }:root{--nv-primary-accent:#2f5aae;--nv-secondary-accent:#2f5aae;--nv-site-bg:#ffffff;--nv-light-bg:#f4f5f7;--nv-dark-bg:#121212;--nv-text-color:#272626;--nv-text-dark-bg:#ffffff;--nv-c-1:#9463ae;--nv-c-2:#be574b;--nv-fallback-ff:Arial, Helvetica, sans-serif;}
+:root{--e-global-color-nvprimaryaccent:#2f5aae;--e-global-color-nvsecondaryaccent:#2f5aae;--e-global-color-nvsitebg:#ffffff;--e-global-color-nvlightbg:#f4f5f7;--e-global-color-nvdarkbg:#121212;--e-global-color-nvtextcolor:#272626;--e-global-color-nvtextdarkbg:#ffffff;--e-global-color-nvc1:#9463ae;--e-global-color-nvc2:#be574b;}</style>
+<link rel="stylesheet" id="elementor-icons-css" href="https://dolongvu.github.io/mywordpress/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.16.0" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-frontend-css" href="https://dolongvu.github.io/mywordpress/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.7.4" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-post-551-css" href="https://dolongvu.github.io/mywordpress/wp-content/uploads/elementor/css/post-551.css?ver=1663556019" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-pro-css" href="https://dolongvu.github.io/mywordpress/wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css?ver=3.7.1" type="text/css" media="all">
+<link rel="stylesheet" id="she-header-style-css" href="https://dolongvu.github.io/mywordpress/wp-content/plugins/sticky-header-effects-for-elementor/assets/css/she-header-style.css?ver=1.5.3" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-global-css" href="https://dolongvu.github.io/mywordpress/wp-content/uploads/elementor/css/global.css?ver=1663556580" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-post-549-css" href="https://dolongvu.github.io/mywordpress/wp-content/uploads/elementor/css/post-549.css?ver=1663808668" type="text/css" media="all">
+<link rel="stylesheet" id="eael-general-css" href="https://dolongvu.github.io/mywordpress/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/general.min.css?ver=5.2.4" type="text/css" media="all">
+<link rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CAbel%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CGenos%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CSintony%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7COpen+Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRokkitt%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=6.0.2" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-icons-shared-0-css" href="https://dolongvu.github.io/mywordpress/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-icons-fa-solid-css" href="https://dolongvu.github.io/mywordpress/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3" type="text/css" media="all">
+<script type="text/javascript" src="https://dolongvu.github.io/mywordpress/wp-includes/js/jquery/jquery.min.js?ver=3.6.0" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://dolongvu.github.io/mywordpress/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="https://dolongvu.github.io/mywordpress/wp-content/plugins/sticky-header-effects-for-elementor/assets/js/she-header.js?ver=1.5.3" id="she-header-js"></script>
+<link rel="https://api.w.org/" href="https://dolongvu.github.io/mywordpress/wp-json/">
+<link rel="alternate" type="application/json" href="https://dolongvu.github.io/mywordpress/wp-json/wp/v2/pages/549">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://dolongvu.github.io/mywordpress/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://dolongvu.github.io/mywordpress/wp-includes/wlwmanifest.xml"> 
+<meta name="generator" content="WordPress 6.0.2">
+<link rel="canonical" href="https://dolongvu.github.io/mywordpress/">
+<link rel="shortlink" href="https://dolongvu.github.io/mywordpress/">
+<link rel="alternate" type="application/json+oembed" href="https://dolongvu.github.io/mywordpress/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%3A7000%2Fmyproject%2Fwordpress%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://dolongvu.github.io/mywordpress/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%3A7000%2Fmyproject%2Fwordpress%2F&#038;format=xml">
+
+	</head>
+
+<body class="home page-template page-template-elementor_header_footer page page-id-549  nv-blog-grid nv-sidebar-full-width menu_sidebar_slide_left elementor-default elementor-template-full-width elementor-kit-551 elementor-page elementor-page-549" id="neve_body">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-dark-grayscale"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 0.49803921568627"></fefuncr><fefuncg type="table" tablevalues="0 0.49803921568627"></fefuncg><fefuncb type="table" tablevalues="0 0.49803921568627"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-grayscale"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 1"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0 1"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-yellow"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.54901960784314 0.98823529411765"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0.71764705882353 0.25490196078431"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-red"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 1"></fefuncr><fefuncg type="table" tablevalues="0 0.27843137254902"></fefuncg><fefuncb type="table" tablevalues="0.5921568627451 0.27843137254902"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-midnight"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 0"></fefuncr><fefuncg type="table" tablevalues="0 0.64705882352941"></fefuncg><fefuncb type="table" tablevalues="0 1"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-magenta-yellow"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.78039215686275 1"></fefuncr><fefuncg type="table" tablevalues="0 0.94901960784314"></fefuncg><fefuncb type="table" tablevalues="0.35294117647059 0.47058823529412"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-green"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.65098039215686 0.40392156862745"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0.44705882352941 0.4"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-orange"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.098039215686275 1"></fefuncr><fefuncg type="table" tablevalues="0 0.66274509803922"></fefuncg><fefuncb type="table" tablevalues="0.84705882352941 0.41960784313725"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><div class="wrapper">
+	
+	<header class="header">
+		<a class="neve-skip-link show-on-focus" href="#content">
+			Skip to content		</a>
+		<div id="header-grid" class="hfg_header site-header">
+	
+<nav class="header--row header-main hide-on-mobile hide-on-tablet layout-full-contained nv-navbar header--row" data-row-id="main" data-show-on="desktop">
+
+	<div class="header--row-inner header-main-inner">
+		<div class="container">
+			<div class="row row--wrapper" data-section="hfg_header_layout_main">
+				<div class="hfg-slot left"><div class="builder-item desktop-left">
+<div class="item--inner builder-item--logo" data-section="title_tagline" data-item-id="logo">
+	
+<div class="site-logo">
+	<a class="brand" href="https://dolongvu.github.io/mywordpress/" title="myproject" aria-label="myproject"><div class="nv-title-tagline-wrap">
+<p class="site-title">myproject</p>
+<small>Một trang web mới sử dụng WordPress</small>
+</div></a>
+</div>
+
+	</div>
+
+</div></div>
+<div class="hfg-slot right"><div class="builder-item has-nav">
+<div class="item--inner builder-item--primary-menu has_menu" data-section="header_menu_primary" data-item-id="primary-menu">
+	<div class="nv-nav-wrap">
+	<div role="navigation" class="style-plain nav-menu-primary" aria-label="Primary Menu">
+
+		<ul id="nv-primary-navigation-main" class="primary-menu-ul nav-ul">
+<li id="menu-item-448" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-448"><a href="https://dolongvu.github.io/mywordpress/?post_type=elementor_library&#038;p=75">Home Page</a></li>
+<li id="menu-item-447" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-447"><a href="https://dolongvu.github.io/mywordpress/blog/">Blog</a></li>
+<li id="menu-item-596" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-549 current_page_item menu-item-596"><a href="https://dolongvu.github.io/mywordpress/" aria-current="page">Home Page</a></li>
+</ul>	</div>
+</div>
+
+	</div>
+
+</div></div>							</div>
+		</div>
+	</div>
+</nav>
+
+
+<nav class="header--row header-main hide-on-desktop layout-full-contained nv-navbar header--row" data-row-id="main" data-show-on="mobile">
+
+	<div class="header--row-inner header-main-inner">
+		<div class="container">
+			<div class="row row--wrapper" data-section="hfg_header_layout_main">
+				<div class="hfg-slot left"><div class="builder-item tablet-left mobile-left">
+<div class="item--inner builder-item--logo" data-section="title_tagline" data-item-id="logo">
+	
+<div class="site-logo">
+	<a class="brand" href="https://dolongvu.github.io/mywordpress/" title="myproject" aria-label="myproject"><div class="nv-title-tagline-wrap">
+<p class="site-title">myproject</p>
+<small>Một trang web mới sử dụng WordPress</small>
+</div></a>
+</div>
+
+	</div>
+
+</div></div>
+<div class="hfg-slot right"><div class="builder-item tablet-left mobile-left">
+<div class="item--inner builder-item--nav-icon" data-section="header_menu_icon" data-item-id="nav-icon">
+	<div class="menu-mobile-toggle item-button navbar-toggle-wrapper">
+	<button type="button" class=" navbar-toggle" value="Navigation Menu" aria-label="Navigation Menu ">
+					<span class="bars">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</span>
+					<span class="screen-reader-text">Navigation Menu</span>
+	</button>
+</div> <!--.navbar-toggle-wrapper-->
+
+
+	</div>
+
+</div></div>							</div>
+		</div>
+	</div>
+</nav>
+
+<div id="header-menu-sidebar" class="header-menu-sidebar menu-sidebar-panel slide_left" data-row-id="sidebar">
+	<div id="header-menu-sidebar-bg" class="header-menu-sidebar-bg">
+		<div class="close-sidebar-panel navbar-toggle-wrapper">
+			<button type="button" class="hamburger is-active  navbar-toggle active" value="Navigation Menu" aria-label="Navigation Menu ">
+									<span class="bars">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</span>
+									<span class="screen-reader-text">
+				Navigation Menu					</span>
+			</button>
+		</div>
+		<div id="header-menu-sidebar-inner" class="header-menu-sidebar-inner ">
+						<div class="builder-item has-nav">
+<div class="item--inner builder-item--primary-menu has_menu" data-section="header_menu_primary" data-item-id="primary-menu">
+	<div class="nv-nav-wrap">
+	<div role="navigation" class="style-plain nav-menu-primary" aria-label="Primary Menu">
+
+		<ul id="nv-primary-navigation-sidebar" class="primary-menu-ul nav-ul">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-448"><a href="https://dolongvu.github.io/mywordpress/?post_type=elementor_library&#038;p=75">Home Page</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-447"><a href="https://dolongvu.github.io/mywordpress/blog/">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-549 current_page_item menu-item-596"><a href="https://dolongvu.github.io/mywordpress/" aria-current="page">Home Page</a></li>
+</ul>	</div>
+</div>
+
+	</div>
+
+</div>					</div>
+	</div>
+</div>
+<div class="header-menu-sidebar-overlay hfg-ov"></div>
+</div>
+	</header>
+
+	
+
+	
+	<main id="content" class="neve-main">
+
+		<div data-elementor-type="wp-page" data-elementor-id="549" class="elementor elementor-549">
+									<section class="elementor-section elementor-top-section elementor-element elementor-element-3bb27d8 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="3bb27d8" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8f5ae2c" data-id="8f5ae2c" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-aea7009 elementor-widget elementor-widget-text-editor" data-id="aea7009" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.7.4 - 31-08-2022 */
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#818a91;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#818a91;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>				<p style="text-align: center;">T H E  W O R L D</p>
+<div class="ddict_btn" style="top: 39px; left: 246.463px;"> </div>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-3cc517e elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3cc517e" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-891ed84" data-id="891ed84" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<section class="elementor-section elementor-inner-section elementor-element elementor-element-c523c59 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c523c59" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-026e8d7" data-id="026e8d7" data-element_type="column">
+			<div class="elementor-widget-wrap">
+									</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-63f0b20" data-id="63f0b20" data-element_type="column">
+			<div class="elementor-widget-wrap">
+									</div>
+		</div>
+							</div>
+		</section>
+				<div class="elementor-element elementor-element-cc2bd72 elementor-widget elementor-widget-image" data-id="cc2bd72" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.7.4 - 31-08-2022 */
+.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>												<img width="620" height="490" src="https://dolongvu.github.io/mywordpress/wp-content/uploads/2022/09/img-7-copyright.jpg" class="attachment-large size-large" alt="" loading="lazy">															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6feff79" data-id="6feff79" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-5188558 elementor-widget elementor-widget-text-editor" data-id="5188558" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>D R E A M  B I G</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-213e184 elementor-widget elementor-widget-text-editor" data-id="213e184" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>L I V E   B I G</p>
+<div class="ddict_btn" style="top: 28px; left: 246.463px;"> </div>						</div>
+				</div>
+				<div class="elementor-element elementor-element-67116a6 elementor-widget elementor-widget-text-editor" data-id="67116a6" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>_</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-9cbbfe6 elementor-widget elementor-widget-text-editor" data-id="9cbbfe6" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Having a dream and being able to finally make it true is the best feeling ever. We encourage you to have big dreams and find inspiration for reaching your goals in the countries and places you have never seen. There are many inspiring stories on our website. Feel free to look through all of them and contact us for more information. Professional travel consultants are always there to answer your questions</p>
+<div class="ddict_btn" style="top: 23px; left: 246.453px;"> </div>						</div>
+				</div>
+				<div class="elementor-element elementor-element-11b1b80 elementor-widget__width-initial elementor-widget elementor-widget-button" data-id="11b1b80" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="https://vagabonds.axiomthemes.com/who-we-are/" class="elementor-button-link elementor-button elementor-size-lg" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">READ MORE ABOUT US</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-2517863 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="2517863" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-9792d7e" data-id="9792d7e" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-409aabf elementor-widget elementor-widget-image" data-id="409aabf" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="1601" height="791" src="https://dolongvu.github.io/mywordpress/wp-content/uploads/2022/09/map2-copyright.png" class="attachment-full size-full" alt="" loading="lazy">															</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-3f1b424 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="3f1b424" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-06c5ad0" data-id="06c5ad0" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-fec91b6 favorite elementor-widget elementor-widget-text-editor" data-id="fec91b6" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p style="text-align: left;">OUR  FAVORITE</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-4b338e5 elementor-widget elementor-widget-text-editor" data-id="4b338e5" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>S T O R I E S</p>						</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-8ad72f3 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8ad72f3" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-9299dda" data-id="9299dda" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-7bb44aa elementor-widget elementor-widget-button" data-id="7bb44aa" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJ0eXBlIjoidmlkZW8iLCJ2aWRlb1R5cGUiOiJ5b3V0dWJlIiwidXJsIjoiaHR0cHM6XC9cL3d3dy55b3V0dWJlLmNvbVwvZW1iZWRcLzVwQTItN0xveV84P2ZlYXR1cmU9b2VtYmVkIn0%3D" rel="nofollow" class="elementor-button-link elementor-button elementor-size-xl elementor-animation-shrink" role="button">
+						<span class="elementor-button-content-wrapper">
+							<span class="elementor-button-icon elementor-align-icon-right">
+				<i aria-hidden="true" class="fas fa-play"></i>			</span>
+						<span class="elementor-button-text"></span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-4538348" data-id="4538348" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-26d8215 e-transform elementor-widget elementor-widget-text-editor" data-id="26d8215" data-element_type="widget" data-settings="{&quot;_transform_rotateZ_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p style="text-align: center;">DON&#8217;T MISS THE LAST VIDEO</p>
+<p style="text-align: center;"> </p>
+<div class="ddict_btn" style="top: 57px; left: 214.531px;"><img src="chrome-extension://bpggmmljdiliancllaapiggllnkbjocb/logo/48.png"></div>						</div>
+				</div>
+				<div class="elementor-element elementor-element-667c36f elementor-widget elementor-widget-text-editor" data-id="667c36f" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>FROM NEW ZEALAND</p>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-205cbcf elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="205cbcf" data-element_type="section">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1d1b508" data-id="1d1b508" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-6e383c4 bdt-navigation-type-progressbar bdt-item-match-height--yes bdt-carousel-style-carousel elementor-widget elementor-widget-bdt-static-carousel" data-id="6e383c4" data-element_type="widget" data-widget_type="bdt-static-carousel.default">
+				<div class="elementor-widget-container">
+			        <div id="bdt-static-carousel-6e383c4" data-settings="{&quot;autoplay&quot;:{&quot;delay&quot;:5000},&quot;loop&quot;:true,&quot;speed&quot;:500,&quot;slidesPerView&quot;:1,&quot;slidesPerGroup&quot;:1,&quot;spaceBetween&quot;:61,&quot;effect&quot;:&quot;carousel&quot;,&quot;breakpoints&quot;:{&quot;767&quot;:{&quot;slidesPerView&quot;:2,&quot;spaceBetween&quot;:61,&quot;slidesPerGroup&quot;:1},&quot;1023&quot;:{&quot;slidesPerView&quot;:3,&quot;spaceBetween&quot;:61,&quot;slidesPerGroup&quot;:1}},&quot;navigation&quot;:{&quot;nextEl&quot;:&quot;#bdt-static-carousel-6e383c4 .bdt-navigation-next&quot;,&quot;prevEl&quot;:&quot;#bdt-static-carousel-6e383c4 .bdt-navigation-prev&quot;},&quot;pagination&quot;:{&quot;el&quot;:&quot;#bdt-static-carousel-6e383c4 .swiper-pagination&quot;,&quot;type&quot;:&quot;progressbar&quot;,&quot;clickable&quot;:&quot;true&quot;,&quot;dynamicBullets&quot;:false},&quot;scrollbar&quot;:{&quot;el&quot;:&quot;#bdt-static-carousel-6e383c4 .swiper-scrollbar&quot;,&quot;hide&quot;:&quot;true&quot;},&quot;coverflowEffect&quot;:{&quot;rotate&quot;:50,&quot;stretch&quot;:0,&quot;depth&quot;:100,&quot;modifier&quot;:1,&quot;slideShadows&quot;:true}}" class="bdt-static-carousel">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+        
+                <div class="bdt-ep-static-carousel-item swiper-slide">
+                    <div class="bdt-ep-static-carousel-image bdt-image-mask">
+            <img src="https://dolongvu.github.io/mywordpress/wp-content/uploads/2022/09/post-10-copyright-2.jpg" alt="A Perfect Family Camping Road Trip">
+        </div>
+                    <div class="bdt-ep-static-carousel-content">
+                                                                    <h3 class="bdt-ep-static-carousel-title">
+                A Perfect Family Camping Road Trip            </h3>
+                                                    <div class="bdt-ep-static-carousel-text">
+                <p>0 Comments     1211 Likes     3 Likes</p>            </div>
+                                                    <div class="bdt-ep-static-carousel-readmore-wrap">
+                <a class="bdt-ep-static-carousel-readmore " href="https://vagabonds.axiomthemes.com/2018/02/10/a-perfect-family-camping-road-trip/" target="_self">
+                                                        </a>
+            </div>
+                            </div>
+        </div>
+                <div class="bdt-ep-static-carousel-item swiper-slide">
+                    <div class="bdt-ep-static-carousel-image bdt-image-mask">
+            <img src="https://dolongvu.github.io/mywordpress/wp-content/uploads/2022/09/post-12-copyright-600x337-1.jpg" alt="What Surfers Should Know about Morocco">
+        </div>
+                    <div class="bdt-ep-static-carousel-content">
+                                                                    <h3 class="bdt-ep-static-carousel-title">
+                What Surfers Should Know about Morocco            </h3>
+                                                    <div class="bdt-ep-static-carousel-text">
+                <p>0 Comments     1211 Likes     3 Likes</p>            </div>
+                                                    <div class="bdt-ep-static-carousel-readmore-wrap">
+                <a class="bdt-ep-static-carousel-readmore " href="https://vagabonds.axiomthemes.com/2018/02/08/what-surfers-should-know-about-morocco/" target="_self">
+                                                        </a>
+            </div>
+                            </div>
+        </div>
+                <div class="bdt-ep-static-carousel-item swiper-slide">
+                    <div class="bdt-ep-static-carousel-image bdt-image-mask">
+            <img src="https://dolongvu.github.io/mywordpress/wp-content/uploads/2022/09/post-5-copyright.jpg" alt="Getting Lost is Not an Issue Anymore">
+        </div>
+                    <div class="bdt-ep-static-carousel-content">
+                                                                    <h3 class="bdt-ep-static-carousel-title">
+                Getting Lost is Not an Issue Anymore            </h3>
+                                                    <div class="bdt-ep-static-carousel-text">
+                <p>0 Comments     1211 Likes     3 Likes</p>
+<p> </p>            </div>
+                                                    <div class="bdt-ep-static-carousel-readmore-wrap">
+                <a class="bdt-ep-static-carousel-readmore " href="https://vagabonds.axiomthemes.com/2018/02/10/a-perfect-family-camping-road-trip/" target="_self">
+                                                        </a>
+            </div>
+                            </div>
+        </div>
+                <div class="bdt-ep-static-carousel-item swiper-slide">
+                    <div class="bdt-ep-static-carousel-image bdt-image-mask">
+            <img src="https://dolongvu.github.io/mywordpress/wp-content/uploads/2022/09/post-6-copyright.jpg" alt="Sand Riding a Unique Activity">
+        </div>
+                    <div class="bdt-ep-static-carousel-content">
+                                                                    <h3 class="bdt-ep-static-carousel-title">
+                Sand Riding a Unique Activity            </h3>
+                                                    <div class="bdt-ep-static-carousel-text">
+                <p>0 Comments     1211 Likes     3 Likes</p>            </div>
+                                                    <div class="bdt-ep-static-carousel-readmore-wrap">
+                <a class="bdt-ep-static-carousel-readmore " href="https://vagabonds.axiomthemes.com/2018/02/20/sand-riding-as-a-unique-activity/" target="_self">
+                                                        </a>
+            </div>
+                            </div>
+        </div>
+                <div class="bdt-ep-static-carousel-item swiper-slide">
+                    <div class="bdt-ep-static-carousel-image bdt-image-mask">
+            <img src="https://dolongvu.github.io/mywordpress/wp-content/uploads/2022/09/post-11-copyright.jpg" alt="Booking a Tour for Shopper">
+        </div>
+                    <div class="bdt-ep-static-carousel-content">
+                                                                    <h3 class="bdt-ep-static-carousel-title">
+                Booking a Tour for Shopper            </h3>
+                                                    <div class="bdt-ep-static-carousel-text">
+                <p>0 Comments     1211 Likes     3 Likes</p>            </div>
+                                                    <div class="bdt-ep-static-carousel-readmore-wrap">
+                <a class="bdt-ep-static-carousel-readmore " href="https://vagabonds.axiomthemes.com/2018/02/18/booking-a-tour-for-shoppers/" target="_self">
+                                                        </a>
+            </div>
+                            </div>
+        </div>
+                <div class="bdt-ep-static-carousel-item swiper-slide">
+                    <div class="bdt-ep-static-carousel-image bdt-image-mask">
+            <img src="https://dolongvu.github.io/mywordpress/wp-content/uploads/2022/09/post-14-copyright.jpg" alt="Random Shots IN Beautiful Spots">
+        </div>
+                    <div class="bdt-ep-static-carousel-content">
+                                                                    <h3 class="bdt-ep-static-carousel-title">
+                Random Shots IN Beautiful Spots            </h3>
+                                                    <div class="bdt-ep-static-carousel-text">
+                <p>0 Comments     1211 Likes     3 Likes</p>            </div>
+                                                    <div class="bdt-ep-static-carousel-readmore-wrap">
+                <a class="bdt-ep-static-carousel-readmore " href="https://vagabonds.axiomthemes.com/2018/02/16/random-shots-in-beautiful-spots/" target="_self">
+                                                        </a>
+            </div>
+                            </div>
+        </div>
+                <div class="bdt-ep-static-carousel-item swiper-slide">
+                    <div class="bdt-ep-static-carousel-image bdt-image-mask">
+            <img src="https://dolongvu.github.io/mywordpress/wp-content/uploads/2022/09/post-8-copyright.jpg" alt="Start Your Summer a Place of Your Dream">
+        </div>
+                    <div class="bdt-ep-static-carousel-content">
+                                                                    <h3 class="bdt-ep-static-carousel-title">
+                Start Your Summer a Place of Your Dream            </h3>
+                                                    <div class="bdt-ep-static-carousel-text">
+                <p>0 Comments     1211 Likes     3 Likes</p>            </div>
+                                                    <div class="bdt-ep-static-carousel-readmore-wrap">
+                <a class="bdt-ep-static-carousel-readmore " href="https://vagabonds.axiomthemes.com/2018/02/14/start-your-summer-at-a-place-of-your-dream/" target="_self">
+                                                        </a>
+            </div>
+                            </div>
+        </div>
+                <div class="bdt-ep-static-carousel-item swiper-slide">
+                    <div class="bdt-ep-static-carousel-image bdt-image-mask">
+            <img src="https://dolongvu.github.io/mywordpress/wp-content/uploads/2022/09/post-7-copyright.jpg" alt="All Roads Lead to Home">
+        </div>
+                    <div class="bdt-ep-static-carousel-content">
+                                                                    <h3 class="bdt-ep-static-carousel-title">
+                All Roads Lead to Home            </h3>
+                                                    <div class="bdt-ep-static-carousel-text">
+                <p>0 Comments     1211 Likes     3 Likes</p>
+<p> </p>            </div>
+                                                    <div class="bdt-ep-static-carousel-readmore-wrap">
+                <a class="bdt-ep-static-carousel-readmore " href="https://vagabonds.axiomthemes.com/2018/02/12/all-roads-lead-to-home/" target="_self">
+                                                        </a>
+            </div>
+                            </div>
+        </div>
+        		</div>
+				</div>
+
+								<div class="swiper-pagination bdt-position-z-index bdt-position-bottom"></div>
+							
+		</div>
+
+		</div>
+				</div>
+				<div class="elementor-element elementor-element-911d93a elementor-widget elementor-widget-text-editor" data-id="911d93a" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>T R I P S  B U Y</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-10f0e40 elementor-widget elementor-widget-text-editor" data-id="10f0e40" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p> I N T E R E S T S</p>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-10c611d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="10c611d" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-7802a34" data-id="7802a34" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-1b84468 elementor-widget elementor-widget-button" data-id="1b84468" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#" class="elementor-button-link elementor-button elementor-size-lg" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">JUST EXPLORING</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-5df408a" data-id="5df408a" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-242f8b7 elementor-widget elementor-widget-button" data-id="242f8b7" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#" class="elementor-button-link elementor-button elementor-size-lg" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">ACTIVITES</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-7c2838a" data-id="7c2838a" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-fd27fe0 elementor-widget elementor-widget-button" data-id="fd27fe0" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#" class="elementor-button-link elementor-button elementor-size-lg" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">FESTIVALS</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-d2b46b5" data-id="d2b46b5" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-126e859 elementor-widget elementor-widget-button" data-id="126e859" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#" class="elementor-button-link elementor-button elementor-size-lg" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">FOOD</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-8cf7d98" data-id="8cf7d98" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-eb500fb elementor-widget elementor-widget-button" data-id="eb500fb" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#" class="elementor-button-link elementor-button elementor-size-lg" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">SHOPPING</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-d3d3ae3" data-id="d3d3ae3" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-cd183ee elementor-widget elementor-widget-button" data-id="cd183ee" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#" class="elementor-button-link elementor-button elementor-size-lg" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">NATURE</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-ec8a2b1 elementor-widget elementor-widget-button" data-id="ec8a2b1" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#" class="elementor-button-link elementor-button elementor-size-lg" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">RELIGION</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-c37e5d6 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c37e5d6" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-85b63b0" data-id="85b63b0" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-bea168e p elementor-widget elementor-widget-image" data-id="bea168e" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="https://vagabonds.axiomthemes.com/2018/01/01/urban-adventures-shopping-tour-2020/">
+							<img width="390" height="270" src="https://dolongvu.github.io/mywordpress/wp-content/uploads/2022/09/new-img-5-vag-copyright-390x270-1.jpg" class="attachment-full size-full" alt="" loading="lazy">								</a>
+															</div>
+				</div>
+				<div class="elementor-element elementor-element-384f6a9 hover elementor-widget elementor-widget-text-editor" data-id="384f6a9" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Urban Adventures Shopping Tour 2020</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-16fc82f elementor-widget elementor-widget-text-editor" data-id="16fc82f" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>0 Comments     1184 Likes     2 Likes</p>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-523b268" data-id="523b268" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-a0f6ebf elementor-widget elementor-widget-image" data-id="a0f6ebf" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+												<figure class="wp-caption">
+											<a href="https://vagabonds.axiomthemes.com/2018/02/08/what-surfers-should-know-about-morocco/">
+							<img width="390" height="270" src="https://dolongvu.github.io/mywordpress/wp-content/uploads/2022/09/luotvan2-1.jpg" class="attachment-full size-full" alt="" loading="lazy">								</a>
+											<figcaption class="widget-image-caption wp-caption-text"></figcaption>
+										</figure>
+									</div>
+				</div>
+				<div class="elementor-element elementor-element-25f5890 elementor-widget elementor-widget-text-editor" data-id="25f5890" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>What Surfers Should Know about       Morocco</p>
+<div class="ddict_btn" style="top: 29px; left: 246.453px;"> </div>						</div>
+				</div>
+				<div class="elementor-element elementor-element-a6515fd elementor-widget elementor-widget-text-editor" data-id="a6515fd" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>0 Comments     1179 Likes     0 Likes</p>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-9608e17" data-id="9608e17" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-b726211 elementor-widget elementor-widget-image" data-id="b726211" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="https://vagabonds.axiomthemes.com/2018/02/10/a-perfect-family-camping-road-trip/">
+							<img width="390" height="270" src="https://dolongvu.github.io/mywordpress/wp-content/uploads/2022/09/tren-xe-2-1.jpg" class="attachment-full size-full" alt="" loading="lazy">								</a>
+															</div>
+				</div>
+				<div class="elementor-element elementor-element-13809be p elementor-widget elementor-widget-text-editor" data-id="13809be" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>A Perfect Family Camping Road Trip</p>
+<div class="ddict_btn" style="top: 26px; left: 246.453px;"><br></div>
+<div class="ddict_btn" style="top: 18px; left: 246.453px;">&nbsp;</div>						</div>
+				</div>
+				<div class="elementor-element elementor-element-64f4ef5 elementor-widget elementor-widget-text-editor" data-id="64f4ef5" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>0 Comments     1769 Likes     1 Likes</p>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-de8e91a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="de8e91a" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-c57987e" data-id="c57987e" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-ba7ac8d elementor-widget elementor-widget-image" data-id="ba7ac8d" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="https://vagabonds.axiomthemes.com/2018/02/12/all-roads-lead-to-home/">
+							<img width="390" height="270" src="https://dolongvu.github.io/mywordpress/wp-content/uploads/2022/09/con-duong-2.jpg" class="attachment-full size-full" alt="" loading="lazy">								</a>
+															</div>
+				</div>
+				<div class="elementor-element elementor-element-71cfa22 elementor-widget elementor-widget-text-editor" data-id="71cfa22" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>All Roads Lead to Home</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-6d5b1ae elementor-widget elementor-widget-text-editor" data-id="6d5b1ae" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>0 Comments     1211 Likes     3 Likes</p>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-46cdf63" data-id="46cdf63" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-3bd0be8 elementor-widget elementor-widget-image" data-id="3bd0be8" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="https://vagabonds.axiomthemes.com/2018/02/14/start-your-summer-at-a-place-of-your-dream/">
+							<img width="390" height="270" src="https://dolongvu.github.io/mywordpress/wp-content/uploads/2022/09/bai-bien.jpg" class="attachment-full size-full" alt="" loading="lazy">								</a>
+															</div>
+				</div>
+				<div class="elementor-element elementor-element-5ef416f elementor-widget elementor-widget-text-editor" data-id="5ef416f" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Start Your Summer at a Place of Your        Dream</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-8c3389b elementor-widget elementor-widget-text-editor" data-id="8c3389b" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>0 Comments     1519 Likes     1 Likes</p>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-44e2f64" data-id="44e2f64" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-a696a73 elementor-widget elementor-widget-image" data-id="a696a73" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="https://vagabonds.axiomthemes.com/2018/02/16/random-shots-in-beautiful-spots/">
+							<img width="390" height="270" src="https://dolongvu.github.io/mywordpress/wp-content/uploads/2022/09/cam-tay-2.jpg" class="attachment-full size-full" alt="" loading="lazy">								</a>
+															</div>
+				</div>
+				<div class="elementor-element elementor-element-448c57d elementor-widget elementor-widget-text-editor" data-id="448c57d" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Random Shots in Beautiful Spots</p>
+<div class="ddict_btn" style="top: -15px; left: 246.453px;"> </div>						</div>
+				</div>
+				<div class="elementor-element elementor-element-f641036 elementor-widget elementor-widget-text-editor" data-id="f641036" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>0 Comments     1306 Likes     4 Likes</p>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-ca8fab6 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ca8fab6" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-997d5af" data-id="997d5af" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-2c184d0 favorite elementor-widget elementor-widget-text-editor" data-id="2c184d0" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>N E W   A D V E N T U R E</p>
+<div class="ddict_btn" style="top: 33px; left: 296.219px;"> </div>						</div>
+				</div>
+				<div class="elementor-element elementor-element-0b760cb elementor-widget elementor-widget-text-editor" data-id="0b760cb" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>C O M I N G   S O O N</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-eab002a elementor-widget elementor-widget-text-editor" data-id="eab002a" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>_</p>						</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-9ceba39 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="9ceba39" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-12 elementor-inner-column elementor-element elementor-element-3b82b77" data-id="3b82b77" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-c94a82e elementor-widget elementor-widget-image" data-id="c94a82e" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="115" height="88" src="https://dolongvu.github.io/mywordpress/wp-content/uploads/2022/09/global.png" class="attachment-large size-large" alt="" loading="lazy">															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-12 elementor-inner-column elementor-element elementor-element-33aafd6" data-id="33aafd6" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-0b3262e elementor-widget elementor-widget-text-editor" data-id="0b3262e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Mangart, Italy</p>
+<div class="ddict_btn" style="top: 49px; left: 282.359px;"><br></div>						</div>
+				</div>
+				<div class="elementor-element elementor-element-1c8dcc6 elementor-widget elementor-widget-text-editor" data-id="1c8dcc6" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>View route  -&gt;</p>
+<div style="top: 60px; left: 282.359px;"> </div>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-12 elementor-inner-column elementor-element elementor-element-694e500" data-id="694e500" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-d4b81f7 elementor-widget elementor-widget-image" data-id="d4b81f7" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="92" height="80" src="https://dolongvu.github.io/mywordpress/wp-content/uploads/2022/09/Screenshot-2022-09-11-130349-1.png" class="attachment-full size-full" alt="" loading="lazy">															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-12 elementor-inner-column elementor-element elementor-element-377e214" data-id="377e214" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-c926f41 elementor-widget elementor-widget-text-editor" data-id="c926f41" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>11 Days</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-4bf0431 elementor-widget elementor-widget-text-editor" data-id="4bf0431" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>January 15-26, 2018</p>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-12 elementor-inner-column elementor-element elementor-element-aeb335b" data-id="aeb335b" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-c759d66 elementor-widget elementor-widget-image" data-id="c759d66" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="95" height="84" src="https://dolongvu.github.io/mywordpress/wp-content/uploads/2022/09/Screenshot-2022-09-11-130405.png" class="attachment-large size-large" alt="" loading="lazy">															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-12 elementor-inner-column elementor-element elementor-element-20c3285" data-id="20c3285" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-748c4eb elementor-widget elementor-widget-text-editor" data-id="748c4eb" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Climbing</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-b7eb2d1 elementor-widget elementor-widget-text-editor" data-id="b7eb2d1" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>High activity level</p>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-12 elementor-inner-column elementor-element elementor-element-41ac18a" data-id="41ac18a" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-e985062 elementor-widget elementor-widget-image" data-id="e985062" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="110" height="96" src="https://dolongvu.github.io/mywordpress/wp-content/uploads/2022/09/Screenshot-2022-09-11-130417.png" class="attachment-large size-large" alt="" loading="lazy">															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-12 elementor-inner-column elementor-element elementor-element-a79d284" data-id="a79d284" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-bdfee4c elementor-widget elementor-widget-text-editor" data-id="bdfee4c" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Tent Camping</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-4f85b47 elementor-widget elementor-widget-text-editor" data-id="4f85b47" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Low comfort level</p>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<div class="elementor-element elementor-element-ad33170 elementor-widget elementor-widget-button" data-id="ad33170" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="https://vagabonds.axiomthemes.com/contacts/" class="elementor-button-link elementor-button elementor-size-lg" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">JOIN THIS ADVENTURED</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-7646e57 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7646e57" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-ff6dd8f" data-id="ff6dd8f" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-4dc12fd elementor-widget elementor-widget-image" data-id="4dc12fd" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="620" height="700" src="https://dolongvu.github.io/mywordpress/wp-content/uploads/2022/09/cam-tay-3.jpg" class="attachment-full size-full" alt="" loading="lazy">															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-05a21e3" data-id="05a21e3" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-ff60595 elementor-widget elementor-widget-text-editor" data-id="ff60595" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>O  U R  T I P S  F O R</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-be1422e elementor-widget elementor-widget-text-editor" data-id="be1422e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>B E G I N N E R S</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-cda9d40 elementor-widget elementor-widget-text-editor" data-id="cda9d40" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>_</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-c76fa9e elementor-widget elementor-widget-text-editor" data-id="c76fa9e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>If you have never traveled a long distance before, here are some tips on how to get started and how to make sure your trip is nice and safe. We talk about this in our blog posts a lot, so please make sure to subscribe to stay ahead of all the news!</p>
+<div class="ddict_btn" style="top: 24px; left: 296.219px;"> </div>						</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-9820c0c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="9820c0c" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-6906e5c" data-id="6906e5c" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-16fe54a elementor-widget elementor-widget-toggle" data-id="16fe54a" data-element_type="widget" data-widget_type="toggle.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.7.4 - 31-08-2022 */
+.elementor-toggle{text-align:left}.elementor-toggle .elementor-tab-title{font-weight:700;line-height:1;margin:0;padding:15px;border-bottom:1px solid #d4d4d4;cursor:pointer;outline:none}.elementor-toggle .elementor-tab-title .elementor-toggle-icon{display:inline-block;width:1em}.elementor-toggle .elementor-tab-title .elementor-toggle-icon svg{-webkit-margin-start:-5px;margin-inline-start:-5px;width:1em;height:1em}.elementor-toggle .elementor-tab-title .elementor-toggle-icon.elementor-toggle-icon-right{float:right;text-align:right}.elementor-toggle .elementor-tab-title .elementor-toggle-icon.elementor-toggle-icon-left{float:left;text-align:left}.elementor-toggle .elementor-tab-title .elementor-toggle-icon .elementor-toggle-icon-closed{display:block}.elementor-toggle .elementor-tab-title .elementor-toggle-icon .elementor-toggle-icon-opened{display:none}.elementor-toggle .elementor-tab-title.elementor-active{border-bottom:none}.elementor-toggle .elementor-tab-title.elementor-active .elementor-toggle-icon-closed{display:none}.elementor-toggle .elementor-tab-title.elementor-active .elementor-toggle-icon-opened{display:block}.elementor-toggle .elementor-tab-content{padding:15px;border-bottom:1px solid #d4d4d4;display:none}@media (max-width:767px){.elementor-toggle .elementor-tab-title{padding:12px}.elementor-toggle .elementor-tab-content{padding:12px 10px}}.e-container>.elementor-widget-toggle{width:var(--container-widget-width,100%)}</style>		<div class="elementor-toggle" role="tablist">
+							<div class="elementor-toggle-item">
+					<div id="elementor-tab-title-2411" class="elementor-tab-title" data-tab="1" role="tab" aria-controls="elementor-tab-content-2411" aria-expanded="false">
+												<span class="elementor-toggle-icon elementor-toggle-icon-right" aria-hidden="true">
+															<span class="elementor-toggle-icon-closed"><i class="fas fa-angle-down"></i></span>
+								<span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-angle-up"></i></span>
+													</span>
+												<a class="elementor-toggle-title">How to choose your destination</a>
+					</div>
+
+					<div id="elementor-tab-content-2411" class="elementor-tab-content elementor-clearfix" data-tab="1" role="tabpanel" aria-labelledby="elementor-tab-title-2411"><p>Choosing destinations is a very important yet super fun task. Having an approximate direction, you can let your mood and imagination lead the way!</p></div>
+				</div>
+							<div class="elementor-toggle-item">
+					<div id="elementor-tab-title-2412" class="elementor-tab-title" data-tab="2" role="tab" aria-controls="elementor-tab-content-2412" aria-expanded="false">
+												<span class="elementor-toggle-icon elementor-toggle-icon-right" aria-hidden="true">
+															<span class="elementor-toggle-icon-closed"><i class="fas fa-angle-down"></i></span>
+								<span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-angle-up"></i></span>
+													</span>
+												<a class="elementor-toggle-title">Take everything under advisement</a>
+					</div>
+
+					<div id="elementor-tab-content-2412" class="elementor-tab-content elementor-clearfix" data-tab="2" role="tabpanel" aria-labelledby="elementor-tab-title-2412"><p>Attention and serious approach to trips organization ensures the safest travel with positive experience only.</p></div>
+				</div>
+							<div class="elementor-toggle-item">
+					<div id="elementor-tab-title-2413" class="elementor-tab-title" data-tab="3" role="tab" aria-controls="elementor-tab-content-2413" aria-expanded="false">
+												<span class="elementor-toggle-icon elementor-toggle-icon-right" aria-hidden="true">
+															<span class="elementor-toggle-icon-closed"><i class="fas fa-angle-down"></i></span>
+								<span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-angle-up"></i></span>
+													</span>
+												<a class="elementor-toggle-title">Be realistic, consider alternate forms of travel</a>
+					</div>
+
+					<div id="elementor-tab-content-2413" class="elementor-tab-content elementor-clearfix" data-tab="3" role="tabpanel" aria-labelledby="elementor-tab-title-2413"><p>Sometimes things happen not the way we plan them. No worries, there are always alternatives that might be even better!</p></div>
+				</div>
+							<div class="elementor-toggle-item">
+					<div id="elementor-tab-title-2414" class="elementor-tab-title" data-tab="4" role="tab" aria-controls="elementor-tab-content-2414" aria-expanded="false">
+												<span class="elementor-toggle-icon elementor-toggle-icon-right" aria-hidden="true">
+															<span class="elementor-toggle-icon-closed"><i class="fas fa-angle-down"></i></span>
+								<span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-angle-up"></i></span>
+													</span>
+												<a class="elementor-toggle-title">Meet the locals</a>
+					</div>
+
+					<div id="elementor-tab-content-2414" class="elementor-tab-content elementor-clearfix" data-tab="4" role="tabpanel" aria-labelledby="elementor-tab-title-2414"><p>Local people can help you around unfamiliar places a lot. Stay friendly and calm in any situation.</p></div>
+				</div>
+								</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-ce4802e elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ce4802e" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-ab801d6" data-id="ab801d6" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-8ed547c elementor-widget elementor-widget-button" data-id="8ed547c" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="https://vagabonds.axiomthemes.com/contacts/" class="elementor-button-link elementor-button elementor-size-lg" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">ASK YOUR QUESTION</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-1a556e7" data-id="1a556e7" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-27fda37 elementor-widget elementor-widget-button" data-id="27fda37" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="https://vagabonds.axiomthemes.com/start-here/" class="elementor-button-link elementor-button elementor-size-lg" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">VIEW OTHER TIP</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-ceebac5 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ceebac5" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-97ea332" data-id="97ea332" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-a780dee elementor-widget elementor-widget-text-editor" data-id="a780dee" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>L A T E S   F R O M</p>
+<div class="ddict_btn" style="top: 31px; left: 296.219px;"> </div>						</div>
+				</div>
+				<div class="elementor-element elementor-element-aa56658 elementor-widget elementor-widget-text-editor" data-id="aa56658" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>I N S T A G R A M</p>
+<div class="ddict_btn" style="top: 31px; left: 296.219px;"> </div>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-32c21f9" data-id="32c21f9" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-8a5d1da elementor-widget elementor-widget-image" data-id="8a5d1da" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="370" height="370" src="https://dolongvu.github.io/mywordpress/wp-content/uploads/2022/09/instagram_1-copyright-370x370-1.jpg" class="attachment-large size-large" alt="" loading="lazy">															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-ff944dd" data-id="ff944dd" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-4edfd32 elementor-widget elementor-widget-image" data-id="4edfd32" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="370" height="370" src="https://dolongvu.github.io/mywordpress/wp-content/uploads/2022/09/instagram_2-copyright-370x370-1.png" class="attachment-large size-large" alt="" loading="lazy">															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-2772568" data-id="2772568" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-fa2aee9 elementor-widget elementor-widget-image" data-id="fa2aee9" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="370" height="370" src="https://dolongvu.github.io/mywordpress/wp-content/uploads/2022/09/instagram_3-copyright-370x370-1.jpg" class="attachment-large size-large" alt="" loading="lazy">															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-c73136a" data-id="c73136a" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-2976325 elementor-widget elementor-widget-image" data-id="2976325" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="370" height="370" src="https://dolongvu.github.io/mywordpress/wp-content/uploads/2022/09/instagram_4-copyright-370x370-1.jpg" class="attachment-large size-large" alt="" loading="lazy">															</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-b58bcb3 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b58bcb3" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6743553" data-id="6743553" data-element_type="column">
+			<div class="elementor-widget-wrap">
+									</div>
+		</div>
+							</div>
+		</section>
+							</div>
+		
+</main><!--/.neve-main-->
+
+<footer class="site-footer" id="site-footer">
+	<div class="hfg_footer">
+		<div class="footer--row footer-bottom layout-full-contained" id="cb-row--footer-bottom" data-row-id="bottom" data-show-on="desktop">
+	<div class="footer--row-inner footer-bottom-inner footer-content-wrap">
+		<div class="container">
+			<div class="hfg-grid nv-footer-content hfg-grid-bottom row--wrapper row " data-section="hfg_footer_layout_bottom">
+				<div class="hfg-slot left"><div class="builder-item"><div class="item--inner"><div class="component-wrap"><div><p><a href="https://themeisle.com/themes/neve/" rel="nofollow">Neve</a> | Powered by <a href="http://wordpress.org/" rel="nofollow">WordPress</a></p></div></div></div></div></div>
+<div class="hfg-slot c-left"></div>
+<div class="hfg-slot center"></div>							</div>
+		</div>
+	</div>
+</div>
+
+	</div>
+</footer>
+
+</div>
+<!--/.wrapper-->
+<link rel="stylesheet" id="ep-font-css" href="https://dolongvu.github.io/mywordpress/wp-content/plugins/bdthemes-element-pack-lite/assets/css/ep-font.css?ver=4.5.0" type="text/css" media="all">
+<link rel="stylesheet" id="ep-static-carousel-css" href="https://dolongvu.github.io/mywordpress/wp-content/plugins/bdthemes-element-pack-lite/assets/css/ep-static-carousel.css?ver=4.5.0" type="text/css" media="all">
+<link rel="stylesheet" id="e-animations-css" href="https://dolongvu.github.io/mywordpress/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.7.4" type="text/css" media="all">
+<script type="text/javascript" id="neve-script-js-extra">
+/* <![CDATA[ */
+var NeveProperties = {"ajaxurl":"http:\/\/localhost:7000\/myproject\/wordpress\/wp-admin\/admin-ajax.php","nonce":"f732cc804d","isRTL":"","isCustomize":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://dolongvu.github.io/mywordpress/wp-content/themes/neve/assets/js/build/modern/frontend.js?ver=3.3.7" id="neve-script-js" async></script>
+<script type="text/javascript" id="neve-script-js-after">
+	var html = document.documentElement;
+	var theme = html.getAttribute('data-neve-theme') || 'light';
+	var variants = {"logo":{"light":{"src":false,"srcset":false,"sizes":false},"dark":{"src":false,"srcset":false,"sizes":false},"same":true}};
+
+	function setCurrentTheme( theme ) {
+		var pictures = document.getElementsByClassName( 'neve-site-logo' );
+		for(var i = 0; i<pictures.length; i++) {
+			var picture = pictures.item(i);
+			if( ! picture ) {
+				continue;
+			};
+			var fileExt = picture.src.slice((Math.max(0, picture.src.lastIndexOf(".")) || Infinity) + 1);
+			if ( fileExt === 'svg' ) {
+				picture.removeAttribute('width');
+				picture.removeAttribute('height');
+				picture.style = 'width: var(--maxwidth)';
+			}
+			var compId = picture.getAttribute('data-variant');
+			if ( compId && variants[compId] ) {
+				var isConditional = variants[compId]['same'];
+				if ( theme === 'light' || isConditional || variants[compId]['dark']['src'] === false ) {
+					picture.src = variants[compId]['light']['src'];
+					picture.srcset = variants[compId]['light']['srcset'] || '';
+					picture.sizes = variants[compId]['light']['sizes'];
+					continue;
+				};
+				picture.src = variants[compId]['dark']['src'];
+				picture.srcset = variants[compId]['dark']['srcset'] || '';
+				picture.sizes = variants[compId]['dark']['sizes'];
+			};
+		};
+	};
+
+	var observer = new MutationObserver(function(mutations) {
+		mutations.forEach(function(mutation) {
+			if (mutation.type == 'attributes') {
+				theme = html.getAttribute('data-neve-theme');
+				setCurrentTheme(theme);
+			};
+		});
+	});
+
+	observer.observe(html, {
+		attributes: true
+	});
+</script>
+<script type="text/javascript" id="eael-general-js-extra">
+/* <![CDATA[ */
+var localize = {"ajaxurl":"http:\/\/localhost:7000\/myproject\/wordpress\/wp-admin\/admin-ajax.php","nonce":"ace544ba43","i18n":{"added":"Added ","compare":"Compare","loading":"Loading..."},"page_permalink":"http:\/\/localhost:7000\/myproject\/wordpress\/"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://dolongvu.github.io/mywordpress/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/general.min.js?ver=5.2.4" id="eael-general-js"></script>
+<script type="text/javascript" id="bdt-uikit-js-extra">
+/* <![CDATA[ */
+var element_pack_ajax_login_config = {"ajaxurl":"http:\/\/localhost:7000\/myproject\/wordpress\/wp-admin\/admin-ajax.php","language":"en","loadingmessage":"Sending user info, please wait...","unknownerror":"Unknown error, make sure access is correct!"};
+var ElementPackConfig = {"ajaxurl":"http:\/\/localhost:7000\/myproject\/wordpress\/wp-admin\/admin-ajax.php","nonce":"221a78e30f","data_table":{"language":{"lengthMenu":"Show _MENU_ Entries","info":"Showing _START_ to _END_ of _TOTAL_ entries","search":"Search :","paginate":{"previous":"Previous","next":"Next"}}},"contact_form":{"sending_msg":"Sending message please wait...","captcha_nd":"Invisible captcha not defined!","captcha_nr":"Could not get invisible captcha response!"},"mailchimp":{"subscribing":"Subscribing you please wait..."},"elements_data":{"sections":[],"columns":[],"widgets":[]}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://dolongvu.github.io/mywordpress/wp-content/plugins/bdthemes-element-pack-lite/assets/js/bdt-uikit.min.js?ver=3.13.1" id="bdt-uikit-js"></script>
+<script type="text/javascript" src="https://dolongvu.github.io/mywordpress/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.7.4" id="elementor-webpack-runtime-js"></script>
+<script type="text/javascript" src="https://dolongvu.github.io/mywordpress/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.7.4" id="elementor-frontend-modules-js"></script>
+<script type="text/javascript" src="https://dolongvu.github.io/mywordpress/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2" id="elementor-waypoints-js"></script>
+<script type="text/javascript" src="https://dolongvu.github.io/mywordpress/wp-includes/js/jquery/ui/core.min.js?ver=1.13.1" id="jquery-ui-core-js"></script>
+<script type="text/javascript" id="elementor-frontend-js-before">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Extra","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Extra","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.7.4","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"e_optimized_assets_loading":true,"e_optimized_css_loading":true,"a11y_improvements":true,"additional_custom_breakpoints":true,"e_import_export":true,"e_hidden_wordpress_widgets":true,"theme_builder_v2":true,"landing-pages":true,"elements-color-picker":true,"favorite-widgets":true,"admin-top-bar":true,"page-transitions":true,"notes":true,"form-submissions":true,"e_scroll_snap":true},"urls":{"assets":"http:\/\/localhost:7000\/myproject\/wordpress\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":549,"title":"myproject%20%E2%80%93%20M%E1%BB%99t%20trang%20web%20m%E1%BB%9Bi%20s%E1%BB%AD%20d%E1%BB%A5ng%20WordPress","excerpt":"","featuredImage":false}};
+</script>
+<script type="text/javascript" src="https://dolongvu.github.io/mywordpress/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.7.4" id="elementor-frontend-js"></script>
+<script type="text/javascript" src="https://dolongvu.github.io/mywordpress/wp-content/plugins/bdthemes-element-pack-lite/assets/js/modules/ep-static-carousel.min.js?ver=4.5.0" id="ep-static-carousel-js"></script>
+<script type="text/javascript" src="https://dolongvu.github.io/mywordpress/wp-content/plugins/bdthemes-element-pack-lite/assets/js/common/helper.min.js?ver=4.5.0" id="element-pack-helper-js"></script>
+<script type="text/javascript" src="https://dolongvu.github.io/mywordpress/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.7.1" id="elementor-pro-webpack-runtime-js"></script>
+<script type="text/javascript" src="https://dolongvu.github.io/mywordpress/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.9" id="regenerator-runtime-js"></script>
+<script type="text/javascript" src="https://dolongvu.github.io/mywordpress/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js"></script>
+<script type="text/javascript" src="https://dolongvu.github.io/mywordpress/wp-includes/js/dist/hooks.min.js?ver=c6d64f2cb8f5c6bb49caca37f8828ce3" id="wp-hooks-js"></script>
+<script type="text/javascript" src="https://dolongvu.github.io/mywordpress/wp-includes/js/dist/i18n.min.js?ver=ebee46757c6a411e38fd079a7ac71d94" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text directionltr': [ 'ltr' ] } );
+</script>
+<script type="text/javascript" id="elementor-pro-frontend-js-before">
+var ElementorProFrontendConfig = {"ajaxurl":"http:\/\/localhost:7000\/myproject\/wordpress\/wp-admin\/admin-ajax.php","nonce":"9b5e84623b","urls":{"assets":"http:\/\/localhost:7000\/myproject\/wordpress\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"http:\/\/localhost:7000\/myproject\/wordpress\/wp-json\/"},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":"http:\/\/localhost:7000\/myproject\/wordpress\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+</script>
+<script type="text/javascript" src="https://dolongvu.github.io/mywordpress/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.7.1" id="elementor-pro-frontend-js"></script>
+<script type="text/javascript" src="https://dolongvu.github.io/mywordpress/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.7.1" id="pro-elements-handlers-js"></script>
+</body>
+
+</html>
