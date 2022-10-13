@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>SUPER FOODS &amp; GRAINS &#8211; myproject</title>
+	<atom:link href="http://localhost/myproject/wordpress/product-category/super-foods-grains/feed/" rel="self" type="application/rss+xml" />
+	<link>https://dolongvu.github.io/mywordpress</link>
+	<description>Một trang web mới sử dụng WordPress</description>
+	<lastBuildDate>Thu, 13 Oct 2022 05:39:33 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<item>
+		<title>Pure Black Sesame</title>
+		<link>https://dolongvu.github.io/mywordpress/product/pure-black-sesame/</link>
+					<comments>https://dolongvu.github.io/mywordpress/product/pure-black-sesame/#respond</comments>
+		
+		<dc:creator><![CDATA[dolongvu]]></dc:creator>
+		<pubDate>Thu, 13 Oct 2022 04:51:54 +0000</pubDate>
+				<guid isPermaLink="false">https://dolongvu.github.io/mywordpress/?post_type=product&#038;p=1080</guid>
+
+					<description><![CDATA[Sumptuous, filling, and temptingly healthy, our Biona Organic Granola with Wild Berries is just the thing to get you out of bed. The goodness of rolled wholegrain oats are combined]]></description>
+										<content:encoded><![CDATA[<p>Integer hendrerit a diam quis ullamcorper. Proin leo libero, porttitor sit amet ullamcorper nec, vehicula sed enim. Nullam et augue et eros pellentesque suscipit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://dolongvu.github.io/mywordpress/product/pure-black-sesame/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
