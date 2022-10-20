@@ -12,13 +12,13 @@
 	<atom:link href="http://localhost/myproject/wordpress/product-tag/ice-cream/feed/" rel="self" type="application/rss+xml" />
 	<link>https://dolongvu.github.io/mywordpress</link>
 	<description>Một trang web mới sử dụng WordPress</description>
-	<lastBuildDate>Thu, 13 Oct 2022 04:49:48 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 20 Oct 2022 01:48:37 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.0.3</generator>
 	<item>
 		<title>Red Cherry Tomato</title>
 		<link>https://dolongvu.github.io/mywordpress/product/red-cherry-tomato/</link>
@@ -74,7 +74,7 @@
 		
 			</item>
 		<item>
-		<title>Cookie Gift Pack</title>
+		<title>Cookie Gift Pack Bead</title>
 		<link>https://dolongvu.github.io/mywordpress/product/cookie-gift-pack-2/</link>
 					<comments>https://dolongvu.github.io/mywordpress/product/cookie-gift-pack-2/#respond</comments>
 		

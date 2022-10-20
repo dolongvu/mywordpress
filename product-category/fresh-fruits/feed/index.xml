@@ -12,14 +12,50 @@
 	<atom:link href="http://localhost/myproject/wordpress/product-category/fresh-fruits/feed/" rel="self" type="application/rss+xml" />
 	<link>https://dolongvu.github.io/mywordpress</link>
 	<description>Một trang web mới sử dụng WordPress</description>
-	<lastBuildDate>Thu, 13 Oct 2022 06:05:17 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 20 Oct 2022 01:48:37 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.0.3</generator>
 	<item>
+		<title>Orchard Avocado Sliced Fruits</title>
+		<link>https://dolongvu.github.io/mywordpress/product/orchard-avocado-sliced-fruits/</link>
+					<comments>https://dolongvu.github.io/mywordpress/product/orchard-avocado-sliced-fruits/#respond</comments>
+		
+		<dc:creator><![CDATA[dolongvu]]></dc:creator>
+		<pubDate>Fri, 14 Oct 2022 16:47:49 +0000</pubDate>
+				<guid isPermaLink="false">https://dolongvu.github.io/mywordpress/?post_type=product&#038;p=1311</guid>
+
+					<description><![CDATA[Sumptuous, filling, and temptingly healthy, our Biona Organic Granola with Wild Berries is just the thing to get you out of bed. The goodness of rolled wholegrain oats are combined]]></description>
+										<content:encoded><![CDATA[<p>Integer hendrerit a diam quis ullamcorper. Proin leo libero, porttitor sit amet ullamcorper nec, vehicula sed enim. Nullam et augue et eros pellentesque suscipit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://dolongvu.github.io/mywordpress/product/orchard-avocado-sliced-fruits/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Red Dragon Fruit Specials</title>
+		<link>https://dolongvu.github.io/mywordpress/product/red-dragon-fruit/</link>
+					<comments>https://dolongvu.github.io/mywordpress/product/red-dragon-fruit/#respond</comments>
+		
+		<dc:creator><![CDATA[dolongvu]]></dc:creator>
+		<pubDate>Fri, 14 Oct 2022 16:47:41 +0000</pubDate>
+				<guid isPermaLink="false">https://dolongvu.github.io/mywordpress/?post_type=product&#038;p=1310</guid>
+
+					<description><![CDATA[Sumptuous, filling, and temptingly healthy, our Biona Organic Granola with Wild Berries is just the thing to get you out of bed. The goodness of rolled wholegrain oats are combined]]></description>
+										<content:encoded><![CDATA[<p>Integer hendrerit a diam quis ullamcorper. Proin leo libero, porttitor sit amet ullamcorper nec, vehicula sed enim. Nullam et augue et eros pellentesque suscipit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://dolongvu.github.io/mywordpress/product/red-dragon-fruit/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Hand Picked Mango</title>
 		<link>https://dolongvu.github.io/mywordpress/product/hand-picked-mango/</link>
 					<comments>https://dolongvu.github.io/mywordpress/product/hand-picked-mango/#respond</comments>

@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Cookie Gift Pack	</title>
+	Comments on: Cookie Gift Pack Bead	</title>
 	<atom:link href="http://localhost/myproject/wordpress/product/cookie-gift-pack-2/feed/" rel="self" type="application/rss+xml" />
 	<link>https://dolongvu.github.io/mywordpress/product/cookie-gift-pack-2/</link>
 	<description>Một trang web mới sử dụng WordPress</description>
-	<lastBuildDate>Thu, 13 Oct 2022 03:28:44 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 20 Oct 2022 01:46:23 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.0.3</generator>
 </channel>
 </rss>

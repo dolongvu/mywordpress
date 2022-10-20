@@ -11,11 +11,11 @@
 	<atom:link href="http://localhost/myproject/wordpress/product/hot-chili-peper/feed/" rel="self" type="application/rss+xml" />
 	<link>https://dolongvu.github.io/mywordpress/product/hot-chili-peper/</link>
 	<description>Một trang web mới sử dụng WordPress</description>
-	<lastBuildDate>Fri, 14 Oct 2022 16:41:17 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 20 Oct 2022 01:31:11 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.0.3</generator>
 </channel>
 </rss>

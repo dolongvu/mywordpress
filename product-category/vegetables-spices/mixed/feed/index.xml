@@ -12,13 +12,13 @@
 	<atom:link href="http://localhost/myproject/wordpress/product-category/vegetables-spices/mixed/feed/" rel="self" type="application/rss+xml" />
 	<link>https://dolongvu.github.io/mywordpress</link>
 	<description>Một trang web mới sử dụng WordPress</description>
-	<lastBuildDate>Fri, 14 Oct 2022 16:37:43 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 20 Oct 2022 00:51:35 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.0.3</generator>
 	<item>
 		<title>Green Lady Finger</title>
 		<link>https://dolongvu.github.io/mywordpress/product/green-lady-finger/</link>
